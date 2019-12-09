@@ -27,7 +27,9 @@ h2 {
   font-weight: normal;
   padding-bottom: 10px;
 }
-
+h3 {
+  color: #11999e;
+}
 /* Cloud images */
 .top-cloud {
   position: absolute;
@@ -59,13 +61,13 @@ h2 {
 }
 p {
   line-height: 2;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
 }
 
 /* Style the hr */
 hr {
   width: 4%;
-  border: 6px dotted #ccc;
+  border: 6px dotted #eaf6f6;
   border-bottom: none;
   margin: 100px auto;
 }
@@ -87,4 +89,8 @@ hr {
   width: 25%;
   float: right;
   margin-left: 40px;
+}
+
+.skills > h2 {
+  font-size: 3.8em;
 }
