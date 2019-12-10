@@ -31,6 +31,19 @@ h2 {
 h3 {
   color: #11999e;
 }
+<<<<<<< HEAD
+=======
+h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #11999e;
+}
+>>>>>>> temp
 /* Cloud images */
 .top-cloud {
   position: absolute;
@@ -60,10 +73,13 @@ h3 {
   margin: 0 auto;
   text-align: center;
   font-family: "Montserrat", sans-serif;
+  /* font-size: 1.5rem; */
 }
 p {
-  line-height: 2;
+  /* line-height: 2; */
   font-size: 1.5rem;
+  line-height: 1.42857143;
+  color: #545454;
 }
 
 /* Style the hr */
@@ -86,6 +102,8 @@ hr {
   width: 25%;
   float: left;
   margin-right: 30px;
+  position: relative;
+  top: 12px;
 }
 /* Chilli */
 .chilli-img {
