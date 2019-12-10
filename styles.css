@@ -26,6 +26,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
   padding-bottom: 10px;
+  color: #66bfbf;
 }
 h3 {
   color: #11999e;
@@ -34,13 +35,13 @@ h3 {
 .top-cloud {
   position: absolute;
   right: 200px;
-  top: 100px;
+  top: 150px;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 200px;
-  bottom: 200px;
+  bottom: 400px;
 }
 
 /* My picture */
@@ -55,13 +56,14 @@ h3 {
 }
 
 .intro {
-  width: 30%;
+  width: 35%;
   margin: 0 auto;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
 }
 p {
   line-height: 2;
-  /* font-size: 1.5rem; */
+  font-size: 1.5rem;
 }
 
 /* Style the hr */
@@ -77,6 +79,7 @@ hr {
   width: 50%;
   margin: 100px auto;
   text-align: justify;
+  /* position: relative; */
 }
 /* Code img */
 .code-img {
@@ -93,4 +96,70 @@ hr {
 
 .skills > h2 {
   font-size: 3.8em;
+}
+
+/* Content */
+.content {
+  width: 70%;
+  float: left;
+  position: relative;
+  bottom: 20px;
+}
+
+div.contact-me > h2 {
+  font-size: 3.8em;
+}
+div.contact-me > h2 + h3 {
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+a.btn {
+  display: inline-block;
+  background-color: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #f1f1f1;
+}
+
+/* Bottom container */
+.bottom-container {
+  width: 100%;
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+div.bottom-container a {
+  display: inline-block;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 10px 20px;
+}
+/* Copyright para */
+p.copyright {
+  font-size: 0.75rem;
+  color: #f1f1f1;
+  padding: 10px 0 0;
+}
+
+/* MAIL ICON */
+.mail-icon {
+  color: #f1f1f1;
+  padding-right: 5px;
+  font-size: 1.5rem;
+  position: relative;
+  top: 3px;
+  font-weight: normal;
+  /* border: none; */
 }
