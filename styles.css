@@ -27,18 +27,27 @@ h2 {
   font-weight: normal;
   padding-bottom: 10px;
 }
+h3 {
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+}
 
+h1,
+h2,
+h3 {
+  color: #11999e;
+}
 /* Cloud images */
 .top-cloud {
   position: absolute;
   right: 200px;
-  top: 100px;
+  top: 150px;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 200px;
-  bottom: 200px;
+  bottom: 400px;
 }
 
 /* My picture */
@@ -53,19 +62,23 @@ h2 {
 }
 
 .intro {
-  width: 30%;
+  width: 35%;
   margin: 0 auto;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
+  /* font-size: 1.5rem; */
 }
 p {
-  line-height: 2;
+  /* line-height: 2; */
   font-size: 1.5rem;
+  line-height: 1.42857143;
+  color: #545454;
 }
 
 /* Style the hr */
 hr {
   width: 4%;
-  border: 6px dotted #ccc;
+  border: 6px dotted #eaf6f6;
   border-bottom: none;
   margin: 100px auto;
 }
@@ -75,16 +88,89 @@ hr {
   width: 50%;
   margin: 100px auto;
   text-align: justify;
+  /* position: relative; */
 }
 /* Code img */
 .code-img {
   width: 25%;
   float: left;
   margin-right: 30px;
+  position: relative;
+  top: 12px;
 }
 /* Chilli */
 .chilli-img {
   width: 25%;
   float: right;
   margin-left: 40px;
+}
+
+.skills > h2 {
+  font-size: 3.8em;
+}
+
+/* Content */
+.content {
+  width: 70%;
+  float: left;
+  position: relative;
+  bottom: 20px;
+}
+
+div.contact-me > h2 {
+  font-size: 3.8em;
+}
+div.contact-me > h2 + h3 {
+  font-size: 2em;
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+a.btn {
+  display: inline-block;
+  background-color: #11cdd4;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  border-radius: 8px;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #f1f1f1;
+}
+
+/* Bottom container */
+.bottom-container {
+  width: 100%;
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+
+div.bottom-container a {
+  display: inline-block;
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin: 10px 20px;
+}
+/* Copyright para */
+p.copyright {
+  font-size: 0.75rem;
+  color: #f1f1f1;
+  padding: 10px 0 0;
+}
+
+/* MAIL ICON */
+.mail-icon {
+  color: #f1f1f1;
+  padding-right: 5px;
+  font-size: 1.5rem;
+  position: relative;
+  top: 3px;
+  font-weight: normal;
+  /* border: none; */
 }
